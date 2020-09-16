@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=ç, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.css">
+    <title>Formulario1</title>
+</head>
+
+<body>
+
+    <div class="conteiner">
+        <h1> Formulario</h1>
+        <form action="#" method="GET ">
+            <fieldset class="form-group">
+                <legend> Informacion de la persona</legend>
+                <div class="form-group">
+                    <label for="nombre"> Nombre</label>
+                    <input type="text" name="Nombre" id="nombre" class="form-control form-control-sm"
+                        placeholder="Nombre del usuario ">
+                </div>
+                <div class="form-group form-inline">
+                    <label for="email"> Email</label>
+                    <input type="email" name="email" id="email" class="form-control mx-sm-3">
+                    <small class="form-text text-muted" id="ayudaEmail"> No te olvides de ingresar el email </small>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="form-group">
+                    <label for="pais"> Pais </label>
+                    <select name="pais" id="pais" class="form-control">
+                        <option value="0">Seleccione...</option>
+                        <option value="1">Argentina</option>
+                        <option value="2"> Brasil</option>
+                        <option value="3"> Bolivia</option>
+                        <option value="4"> Chile</option>
+
+
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="comentario">Comentario</label>
+                    <textarea name="comentario" id="comentario" rows="3" class="form-control"></textarea>
+
+                </div>
+
+
+            </fieldset>
+            <fieldset class="form-group">
+                <legend> Informacion Academica</legend>
+                <div class="form-group">
+                    <label class="d-block">Estudio en alguno de estos institutos</label>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="instituto" value="si" checked> si
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="instituto" value="no"> no
+                        </label>
+                    </div>
+                    <div>
+
+                        <div class="form-group">
+                            <label class="d-block"> Institucion donde estudio informatica</label>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input">Digit@llers
+
+                                </label>
+
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input">Educacion IT
+
+                                </label>
+
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input">Codigo Simple
+
+                                </label>
+
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input">FullCode
+
+                                </label>
+
+                            </div>
+
+
+                        </div>
+            </fieldset>
+            <input type="submint" class="btn btn-primary" value="Enviar">
+
+
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>
